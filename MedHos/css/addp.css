@@ -1,0 +1,22 @@
+#ldeftie{
+	float: left;
+}
+#rdightie{
+	float: left;
+}
+fieldset{
+	border: 1px solid;
+}
+#borderddiv{
+	border: 1px solid;
+	margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+
+}
+li {
+    display: inline;
+    padding-left: 10px;
+}

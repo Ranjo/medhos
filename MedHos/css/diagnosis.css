@@ -1,0 +1,122 @@
+.sided{
+	padding: 8px;
+	
+	background-color: white;
+   
+}
+.bground{
+    background-image: url('../images/backgdgs.jpg');
+    
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+.patdet{
+	 background-color: #f2f2f2;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	
+}
+.prevhist{
+     background-color: #f2f2f2;
+	
+}
+.fltlft{
+	float: right;
+}
+
+p{
+	float: right;
+	padding-left: 20px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 70%; /* Could be more or less, depending on screen size */
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+.closes {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+.closes:hover,
+.closes:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+.fleft{
+
+   right: 35px;
+    top: 15px;
+    float: right;
+    color: red;
+    padding-right: 20px; 
+    font-family: fontawesome;
+    font-size: 40px;
+    
+    font-weight: bolder;
+
+}
+.fleft:hover,
+.fleft:focus {
+    color: #E60000;
+    cursor: pointer;
+}
+
+.bigs{
+
+    width: 50%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.closebtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.closebtn, .savebtn {
+  float: left;
+  width: 50%;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}

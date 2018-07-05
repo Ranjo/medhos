@@ -1,0 +1,67 @@
+.centered{
+	padding-top: 80px;
+}
+.reseted {
+  display: block;
+  width: 25%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.reseted:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.reseted::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.reseted:-ms-input-placeholder {
+  color: #999;
+}
+.reseted::-webkit-input-placeholder {
+  color: #999;
+}
+.reseted::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+.reseted[disabled],
+.reseted[readonly],
+fieldset[disabled] .reseted {
+  background-color: #eee;
+  opacity: 1;
+}
+.reseted[disabled],
+fieldset[disabled] .reseted {
+  cursor: not-allowed;
+}
+textarea.reseted {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="date"].reseted,
+  input[type="time"].reseted,
+  input[type="datetime-local"].reseted,
+  input[type="month"].reseted {
+    line-height: 34px;
+  }
+ .overides{
+ 	width: 50% !important;
+ }

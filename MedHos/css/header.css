@@ -1,0 +1,49 @@
+
+.medhos{
+    padding: 0.01em 16px;
+    padding-top: 0.01em;
+    padding-right: 16px;
+    padding-bottom: 0.01em;
+    padding-left: 16px;
+    font-family: fontawesome;
+    line-height: 1;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #555555;
+}
+div.top{
+padding-top: 20px;
+}
+.top {
+    position: relative;
+    background-color: #ffffff;
+    height: 68px;
+    padding-top: 20px;
+    line-height: 50px;
+    overflow: hidden;
+    z-index: 2;
+}
+.w3-right {
+    float: right !important;
+    padding: 0.01em 16px;
+    padding-top: 0.01em;
+    padding-right: 16px;
+    padding-bottom: 0.01em;
+    padding-left: 16px;
+    /*font-family: fontawesome;*/
+    line-height: 1;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #555555;
+}
+}
+.w3-wide {
+    letter-spacing: 4px;
+    line-height: 50px;
+}
+.plus{
+    font-family: fontawesome;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #FF4D4D;
+}
